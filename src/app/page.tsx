@@ -33,9 +33,9 @@ export default function Home() {
 
       <SectionTitle
         preTitle="Testimonials"
-        title="Here's why teachers love us"
+        title={`Here's why teachers love us`}
       >
-        Our teachers rave about the time saved and the improved student performance they've seen using our platform.
+        {`Our teachers rave about the time saved and the improved student performance they've seen using our platform.`}
       </SectionTitle>
 
       <Testimonials />
