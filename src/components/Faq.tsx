@@ -36,21 +36,28 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    "question": "What is Classify?",
+    "answer": "Classify is a SaaS platform designed to help coaching classes create, administer, and analyze online tests efficiently, saving time and improving student outcomes."
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    "question": "How do I create an account?",
+    "answer": "Simply click on the \"Sign Up\" or \"Free Trial\" button on our website and follow the on-screen instructions."
   },
   {
-    question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+    "question": "Is there a free trial available?",
+    "answer": "Yes, we offer a [duration] free trial so you can experience the platform's features before subscribing."
   },
   {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+    "question": "What types of questions can I create?",
+    "answer": "Our platform supports a variety of question types, including multiple-choice, true/false, fill-in-the-blank, matching, short answer, and essay questions."
   },
-];
+  {
+    "question": "Can I upload my own questions?",
+    "answer": "Yes, you can easily bulk import questions from a excel file."
+  },
+  {
+    "question": "Does the platform offer automated grading?",
+    "answer": "Yes, our platform automatically grades objective question types, saving you valuable time."
+  },
+]
+;

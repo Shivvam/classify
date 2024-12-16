@@ -13,12 +13,10 @@ export default function Home() {
     <Container>
       <Hero />
       <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        preTitle="Why Classify"
+        title=" Why should you choose classify"
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        Classify transforms coaching class assessments with automated test creation, professional test paper generation, and in-depth performance analysis. This saves time, boosts student engagement with interactive online tests, and provides valuable insights to improve outcomes, all within a scalable and cost-effective platform.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
@@ -26,28 +24,24 @@ export default function Home() {
 
       <SectionTitle
         preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
+        title="Learn how Classify Helps"
       >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        AI-powered testing for coaching classes: smarter assessments, better results.
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" />
 
       <SectionTitle
         preTitle="Testimonials"
-        title="Here's what our customers said"
+        title="Here's why teachers love us"
       >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Our teachers rave about the time saved and the improved student performance they've seen using our platform.
       </SectionTitle>
 
       <Testimonials />
 
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+        
       </SectionTitle>
 
       <Faq />
